@@ -28,6 +28,10 @@
                 .when('/jefes', {
                     templateUrl: 'registrarjefes.html'
 
+                })                
+                .when('/progreso', {
+                    templateUrl: 'estadisticas.html'
+
                 })
                 .otherwise({
                         redirectTo: '/home'
