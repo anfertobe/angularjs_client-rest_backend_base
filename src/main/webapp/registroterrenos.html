@@ -1,0 +1,15 @@
+<div>
+    <h1> Registro de Información Familia </h1>
+    <div  ng-controller= "RegistrarTerrenos as regter" >
+        <form>
+            <input type="number" name="tr" ng-model="regter.cabeza" required><br>
+            Nombre del terreno: <input type="text" name="qwe" ng-model="regter.terreno.nombre" required><br>
+            Extencion del Terreno: <input type="number" name="fgd" ng-model="regter.terreno.extencion" required><br>
+            Tipo de suelo: <input type="text" name="jhg" ng-model="regter.terreno.tipoSuelo" required><br>
+            Ph: <input type="text" name="asd" ng-model="regter.terreno.ph" required><br>
+            ASNM: <input type="text" name="fgh" ng-model="regter.terreno.ASNM" required><br>
+            Ubicacion: <input type="text" name="cvb" ng-model="regter.terreno.ubicacion" required><br>
+        </form>
+        <button  ng-click="regter.terrenoreg()" class="btn btn-primary">Registrar</button>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+<div>
+    <h1> Registro de Información Familia </h1>
+    <div  ng-controller= "controlregistro as reg">
+        <form>
+            <select name="cabeza">
+                <option></option>
+            </select>
+            <select name="terreno">
+                <option></option>
+            </select>
+            Tipo de rubro:<input type="number" name="lcant" ng-model="reg.producto.precio" required><br>
+            Clase del rubro: <input type="number" name="lcant" ng-model="reg.producto.precio" required><br>
+            Rubros de Produccion:<input type="text" name="lcant" ng-model="reg.producto.precio" required><br>
+            Rendimineto de Produccion: <input type="number" name="lcant" ng-model="reg.producto.precio" required><br>
+            Tecnologias Usadas: <input type="number" name="lcant" ng-model="reg.producto.precio" required><br>
+        </form>
+        <button  ng-click="reg.registrar()" class="btn btn-primary">Registrar</button>
+    </div>
+</div>

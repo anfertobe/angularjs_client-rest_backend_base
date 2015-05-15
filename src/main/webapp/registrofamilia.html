@@ -1,0 +1,14 @@
+<div>
+    <h1> Registro de Información Familia </h1>
+    <div  ng-controller= "RegistroFamilia as reg">
+        <form>
+            Nombre: <input type="text" name="fname" ng-model="reg.familia.nombreCabeza" required><br>
+            Identificacion: <input type="text" name="lprice" ng-model="reg.familia.id" required><br>
+            Edad: <input type="text" name="lcant" ng-model="reg.familia.edad" required><br>
+            Cantidad de integrantes de la familia: <input type="number" name="asd" ng-model="reg.familia.integrantes" required><br>
+            Ingresos Mensuales: <input type="number" name="fgh" ng-model="reg.familia.ingresos" required><br>
+            nivel de estudio: <input type="text" name="jkl" ng-model="reg.familia.nivelAcademico" required><br>
+        </form>
+        <button  ng-click="reg.registrar()" class="btn btn-primary">Registrar</button>
+    </div>
+</div>
